@@ -1,3 +1,5 @@
+'use strict';
+
 //== GLOBAL VARIABLES
 
 // View Model
