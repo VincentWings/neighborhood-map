@@ -7,7 +7,7 @@ This an app that uses Google Maps API and Foursquare API to help the user findin
 Open https://vincentwings.github.io/neighborhood-map/
 or Download / clone the repository :
 https://github.com/VincentWings/neighborhood-map.git
-Open index.html
+Open index.html in your browser
 ```
 
 ## Reference materials
