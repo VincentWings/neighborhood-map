@@ -10,8 +10,8 @@ https://github.com/VincentWings/neighborhood-map.git
 ```
 
 ## Reference materials
-Foursquare API - https://developer.foursquare.com/
-Google map API - https://developers.google.com/maps/documentation/javascript/tutorial
-Knockout JS - https://knockoutjs.com/
+* Foursquare API - https://developer.foursquare.com/
+* Google map API - https://developers.google.com/maps/documentation/javascript/tutorial
+* Knockout JS - https://knockoutjs.com/
 
 
