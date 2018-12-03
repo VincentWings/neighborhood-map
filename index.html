@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Neighborhood Map</title>
+	<!-- STYLE CSS -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- MENU -->
+	<nav id="menu" data-bind="click: showPanel, visible: ShowMenu">
+		<div></div>
+		<div></div>
+		<div></div>
+	</nav>
+
+	<!-- PANEL -->
+	<aside data-bind="visible: ShowPanel">
+
+		<button class="close" data-bind="click: hidePanel">X</button>
+
+		<h1 class="main-title">Vegan & Vegetarian Restaurants</h1>
+
+		<!-- SEARCH BOX -->
+		<nav class="searchBox">
+			<form>
+				<input id="searchText" type="text" placeholder="Search Restaurant" data-bind="textInput: filteredInput">
+			</form>
+
+			<ul class="restaurants-list" data-bind="foreach: myRestaurants">
+				<li data-bind="text: title, click: $parent.showLocation,  visible: show"></li>
+			</ul>
+
+		</nav>
+
+	</aside>
+
+
+	<!-- MAP -->
+    <div id="map"></div>
+	
+	<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	
+	<!-- Knockout JS -->
+    <script type='text/javascript' src='js/lib/knockout.js'></script>
+	
+	<!-- Google Map API -->
+    <script async defer src= "https://maps.googleapis.com/maps/api/js?key=AIzaSyA0FRAN3FY9X5Am1ecp3uODDHLrDgNNkFI&v=3&callback=initMap" onerror="errorOnLoad()"></script>
+
+	<!-- APP JS -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
