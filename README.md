@@ -1,6 +1,6 @@
 # Neighborhood Map
 Project made for the completion of the Udacity's Front End Developer Nanodegree.
-This an app that uses Google Maps and Foursquare to help the user finding Vegan & Vegetarian Restaurants in London.
+This an app that uses Google Maps API and Foursquare API to help the user finding Vegan & Vegetarian Restaurants in London.
 
 ## Instructions
 ```
